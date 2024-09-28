@@ -1,0 +1,19 @@
+{
+  "name":"antony",
+  "email":"b@gmail.com",
+  "gender":"male",
+  "products": [
+    {
+      "productId":1,
+      "productName":"Ferrari",
+      "quantity":5,
+      "price":10000
+    },
+    {
+      "productId":2,
+      "productName":"Camaro",
+      "quantity":5,
+      "price":10000
+    }
+  ]
+}
