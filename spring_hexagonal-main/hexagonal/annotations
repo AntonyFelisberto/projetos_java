@@ -1,0 +1,5 @@
+docker-compose up
+docker ps
+docker exec -it 581f73d46fb4 /bin/bash
+mongosh -u root -p
+java -jar wiremock-standalone-3.6.0.jar --port 8082

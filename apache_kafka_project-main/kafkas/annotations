@@ -1,0 +1,7 @@
+docker-compose up           run containers
+docker-compose up -d        run containers with terminal avaiable
+docker-compose down         stop service
+docker container ls         see containers
+docker container ls -a      see containers that already run
+docker ps                   see containers running
+docker push projeto/kafka   push to docker hub
