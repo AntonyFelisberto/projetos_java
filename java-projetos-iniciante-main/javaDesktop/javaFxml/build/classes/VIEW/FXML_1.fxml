@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="557.0" prefWidth="661.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="VIEW.FXMLDocumentController">
+   <children>
+      <TextField fx:id="Nome" layoutX="259.0" layoutY="216.0" />
+      <TextField fx:id="Email" layoutX="256.0" layoutY="266.0" />
+      <TextField fx:id="Cpf" layoutX="256.0" layoutY="369.0" />
+      <TextField fx:id="Telefone" layoutX="256.0" layoutY="428.0" />
+      <Label layoutX="314.0" layoutY="193.0" text="Nome" />
+      <Label layoutX="315.0" layoutY="241.0" text="E-mail" />
+      <Label layoutX="314.0" layoutY="290.0" text="Senha" />
+      <Label layoutX="320.0" layoutY="344.0" text="CPF" />
+      <Label layoutX="309.0" layoutY="401.0" text="Telefone" />
+      <Button fx:id="Botao" layoutX="256.0" layoutY="469.0" mnemonicParsing="false" onAction="#cadastrar" text="Cadastrar" />
+      <ImageView fitHeight="169.0" fitWidth="233.0" layoutX="246.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/CN.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="Logar" layoutX="355.0" layoutY="469.0" mnemonicParsing="false" onAction="#logar" text="Login" />
+      <PasswordField fx:id="Senha" layoutX="256.0" layoutY="307.0" />
+   </children>
+</AnchorPane>

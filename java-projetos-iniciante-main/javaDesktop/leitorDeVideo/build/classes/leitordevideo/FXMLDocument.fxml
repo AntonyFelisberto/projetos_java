@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.media.MediaView?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="leitordevideo.FXMLDocumentController">
+   <center>
+      <StackPane prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <MediaView fx:id="dvd" fitHeight="200.0" fitWidth="200.0" />
+         </children>
+      </StackPane>
+   </center>
+   <bottom>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Slider fx:id="progressoDoVideo" />
+            <HBox prefHeight="74.0" prefWidth="1600.0">
+               <children>
+                  <Button fx:id="selecionar" mnemonicParsing="false" onAction="#selecionarVideo" prefHeight="25.0" prefWidth="119.0" text="Escolher arquivo">
+                     <HBox.margin>
+                        <Insets right="7.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="tocar" mnemonicParsing="false" onAction="#tocarVideo" prefHeight="25.0" prefWidth="119.0" text="Play">
+                     <HBox.margin>
+                        <Insets right="7.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="pausar" mnemonicParsing="false" onAction="#pausarVideo" prefHeight="25.0" prefWidth="119.0" text="Pause">
+                     <HBox.margin>
+                        <Insets right="7.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="stop" mnemonicParsing="false" onAction="#stopVideo" prefHeight="25.0" prefWidth="119.0" text="Stop">
+                     <HBox.margin>
+                        <Insets right="7.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="avançar" mnemonicParsing="false" onAction="#avancarVideo" prefHeight="25.0" prefWidth="119.0" text="avançar">
+                     <HBox.margin>
+                        <Insets right="7.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="voltar" mnemonicParsing="false" onAction="#voltarVideo" prefHeight="25.0" prefWidth="119.0" text="Voltar">
+                     <HBox.margin>
+                        <Insets right="7.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="desacelerar" mnemonicParsing="false" onAction="#desacelerarVideo" prefHeight="25.0" prefWidth="119.0" text="Desacelerar">
+                     <HBox.margin>
+                        <Insets right="7.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="acelerar" mnemonicParsing="false" onAction="#acelerarVideo" prefHeight="25.0" prefWidth="119.0" text="Acelerar">
+                     <HBox.margin>
+                        <Insets right="7.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="sair" mnemonicParsing="false" onAction="#sairVideo" prefHeight="25.0" prefWidth="119.0" text="Sair">
+                     <HBox.margin>
+                        <Insets right="7.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Slider>
+                     <HBox.margin>
+                        <Insets top="13.0" />
+                     </HBox.margin>
+                  </Slider>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </bottom>
+</BorderPane>

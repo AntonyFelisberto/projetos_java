@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="aularedes.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="277.0" layoutY="556.0" onAction="#handleButtonAction" prefHeight="38.0" prefWidth="166.0" text="Confirmar Resposta" />
+      <Spinner fx:id="rodaDeResposta" layoutX="276.0" layoutY="496.0" prefHeight="25.0" prefWidth="166.0" />
+      <TextArea fx:id="texto" layoutX="29.0" layoutY="44.0" prefHeight="296.0" prefWidth="659.0" />
+      <Label layoutX="327.0" layoutY="350.0" prefHeight="17.0" prefWidth="66.0" text="RESPOSTAS" />
+      <Label fx:id="pontuacao" layoutX="547.0" layoutY="350.0" prefHeight="17.0" prefWidth="102.0" />
+      <Button layoutX="277.0" layoutY="613.0" mnemonicParsing="false" onAction="#Próxima" prefHeight="38.0" prefWidth="166.0" text="Proxima" />
+      <TextArea fx:id="text" layoutX="29.0" layoutY="377.0" prefHeight="104.0" prefWidth="659.0" />
+      <Label layoutX="326.0" layoutY="21.0" text="PERGUNTAS" />
+    </children>
+</AnchorPane>

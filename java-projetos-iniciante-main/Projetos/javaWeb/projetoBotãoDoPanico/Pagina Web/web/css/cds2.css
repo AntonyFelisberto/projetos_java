@@ -1,0 +1,102 @@
+body {
+    background-image:url('fundo.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin:auto 0;
+    position: relative;
+    margin: 0px;
+    padding: 0px; 
+	background-attachment: fixed;
+}
+h1{
+    color:rgb(255, 255, 255);
+}
+#check {
+	display: none;
+}
+#check:checked ~ .barra {
+	-webkit-transform: translate(300px);
+	   -moz-transform: translate(300px);
+	    -ms-transform: translate(300px);
+	     -o-transform: translate(300px);
+	        transform: translate(300px);
+}
+.icone {
+	font-size: 30px;
+	position: fixed;
+	z-index: 2;
+	cursor: pointer;
+}
+.barra {
+	width: 300px;
+	height: 100%;
+	position: fixed;
+	background-color: #ccc;
+	padding-top: 50px;
+	left: -300px;
+	-webkit-transition: all .25s linear;
+	   -moz-transition: all .25s linear;
+	    -ms-transition: all .25s linear;
+	     -o-transition: all .25s linear;
+	        transition: all .25s linear;
+}
+div{
+    text-align: center;
+}
+img {
+    height: 50%;
+    width: 50%;
+    max-width: 150px; max-height: 150px;
+	height: 100vh;
+    margin:auto 0;
+    position: relative;
+    margin: 0px;
+	padding: 0px;
+}
+#rest{
+	resize: none;
+}
+.linha{
+	background-color: rgba(255, 255, 255, 0.63);
+
+}
+.linha2{
+	background-color: rgba(73, 73, 73, 0.459);
+}
+.linha3{
+	background-color: rgba(255, 255, 255, 0.63);
+	margin-left: 33%;
+	margin-right:33% ;
+}
+.nada{
+	background-color: none;
+}
+.button {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #f4971e;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 15px;
+	padding: 10px;
+	width: 150px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+.button2 {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #f4971e;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 15px;
+	padding: 10px;
+	width: 150px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}

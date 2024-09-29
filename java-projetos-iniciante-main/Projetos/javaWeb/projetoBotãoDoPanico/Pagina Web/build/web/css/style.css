@@ -1,0 +1,22 @@
+body{
+    background-image: url(papel.jpg);
+    background-position: center;
+}
+#ind{
+    list-style: solid;
+    background-color: gold;
+    font-family:Garamond; 
+   
+}
+#titulo{
+    background-color: darkorange;
+
+}
+.dds{
+    font-size:medium;
+    align-items: center;
+    color:rgb(0, 0, 0);    
+}
+#yuki{
+    text-align: center;
+}
